@@ -1,0 +1,179 @@
+body {
+ font-family: 'Merienda', cursive;
+  font-weight: 400;
+   margin: 0;
+    padding: 0;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 1600;
+  margin: 0;
+  font-size: 50px;
+  color: rgb(220,20,60);
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+ul#menu {
+    padding: 0;
+}
+
+ul#menu li {
+    display: inline;
+}
+
+ul#menu li a {
+    background-color: purple;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 20px 20px 0px 0px;
+}
+
+ul#menu li a:hover {
+    background-color: pink;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('pics/rings.jpg');
+  background-size: 100% 100%;
+  color: #fffff0;
+  height: 400px;
+  text-shadow: 0.35px 0.35px 0.35px #000000;
+}
+.text-center{
+	align: center;
+}
+.jumbotron1 {
+  display: flex;
+  align-items: center;
+  background-image: url('pics/contact.jpg');
+  background-size: 100% 100%;
+  color: #fffff0;
+  height: 400px;
+  text-shadow: 0.35px 0.35px 0.35px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 5px;
+  border: 5px;
+  color: purple;
+  text-shadow: 2px;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: purple;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+li{display:inline}
+
+form { 
+margin: 0 auto; 
+width:600px;
+}
+
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text] , select, textarea {
+	vertical-align: top; 
+    width: 60%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 2px solid #ccc; /* Gray border */
+    border-radius: 6px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #ffefd5;
+    padding: 20px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
